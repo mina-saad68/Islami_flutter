@@ -86,4 +86,6 @@ class QuranScreen extends StatelessWidget {
           ),
         ),
       ],
+     );
+   }
 }

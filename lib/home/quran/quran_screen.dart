@@ -27,10 +27,10 @@ class QuranScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+ return Column(
       children: [
 
-        Image.asset('assets/images/moshaf.png'),
+          Image.asset('assets/images/moshaf.png'),
 
         Table (
           border: TableBorder.symmetric(inside: BorderSide(width: 2,color: Theme.of(context).primaryColor),),
@@ -86,7 +86,4 @@ class QuranScreen extends StatelessWidget {
           ),
         ),
       ],
-    );
-
-  }
 }

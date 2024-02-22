@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:islami/home/homeScreen.dart';
 import 'package:islami/home/quran/quran_screen.dart';
 import 'package:islami/home/quran/sura_details.dart';
@@ -17,13 +18,13 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           color: Colors.transparent,
           centerTitle: true,
-          titleTextStyle: TextStyle(
+          titleTextStyle: GoogleFonts.elMessiri(
               fontSize: 30, fontWeight: FontWeight.w700, color: Colors.black),
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           selectedIconTheme: IconThemeData(
             color: Colors.black,
-            size: 28,
+            size: 30,
           ),
           selectedItemColor: Colors.black,
           unselectedIconTheme: IconThemeData(

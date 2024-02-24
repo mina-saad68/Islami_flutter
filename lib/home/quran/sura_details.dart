@@ -39,9 +39,10 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
   }
 
   void readSuraFile(int index) async {
-    String sura  = await rootBundle.loadString('assets/files${index+1}.txt');
+    String sura  = await rootBundle.loadString('assets/files/${index+1}.txt');
     List<String> lines = sura.trim().split("\n");
     versesLines=lines;
+    print('mina');
     setState(() {
 
     });

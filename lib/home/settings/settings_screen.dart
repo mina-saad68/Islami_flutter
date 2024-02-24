@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islami/home/settings/theme_bottom_sheet.dart';
+import 'package:islami/home/sheets/theme_bottom_sheet.dart';
 import 'package:islami/home/sheets/language_bottom_sheets.dart';
 
 class SettingsScreen extends StatelessWidget {

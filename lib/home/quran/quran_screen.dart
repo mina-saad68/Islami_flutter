@@ -64,19 +64,19 @@ class QuranScreen extends StatelessWidget {
                       onTap: () {
                         Navigator.pushNamed(context, SuraDetailsScreen.routeName,arguments: SuraModel(title: suraNames[index], index: index));
                       },
-                      child: TableCell(child: Center(child: Padding(
+                      child: Center(child: Padding(
                         padding: const EdgeInsets.all(10),
                         child: Text(versesNumber[index].toString(),style: TextStyle(fontSize: 22,fontWeight: FontWeight.w400)),
-                      ))),
+                      )),
                     ),
                     InkWell(
                       onTap: () {
                         Navigator.pushNamed(context, SuraDetailsScreen.routeName,arguments: SuraModel(title: suraNames[index], index: index));
                       },
-                      child: TableCell(child: Center(child: Padding(
+                      child: Center(child: Padding(
                         padding: const EdgeInsets.all(10),
                         child: Text(suraNames[index],style: TextStyle(fontSize: 22,fontWeight: FontWeight.w400)),
-                      ))),
+                      )),
                     ),
                   ],
                 ),
